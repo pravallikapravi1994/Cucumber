@@ -1,0 +1,28 @@
+{
+ "webPortal_Dev": {
+  "featureFile": "src/test/resources/testData/WebFeatureData.xlsx",
+  "baseUri": "https://www.chase.com"
+ },
+ "webPortal_Stg":{
+  "featureFile": "src/test/resources/testData/WebFeatureData.xlsx",
+  "baseUri": "https://www.chase.com/personal/credit-cards/ultimate-rewards"
+},
+ "android":{
+  "platformName": "android",
+  "deviceName": "Samsung Galaxy S8",
+  "platformVersion": "7.0",
+  "appPackage": "com.higi.main.stg",
+  "appActivity": "com.higi.main.activity.SplashActivity",
+  "driverUrl": "http://127.0.0.1:4723/wd/hub",
+  "featureFile": "src/test/resources/testData/AndroidFeatureData.xlsx"
+},
+ "android_Web":{
+  "platformName": "Android",
+  "deviceName": "emulator-5554",
+  "platformVersion": "9.0",
+  "browserName": "Chrome",
+  "driverUrl": "http://127.0.0.1:4723/wd/hub",
+  "featureFile": "src/test/resources/testData/WebFeatureData.xlsx",
+  "baseUri": "https://www.chase.com/personal/credit-cards/ultimate-rewards"
+}
+}
